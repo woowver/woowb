@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+     <link rel="icon" href="img/head/Aicon.png" type="image/x-icon">
+    <title>HANDS-ON ENDOSCOPY</title>
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/google-map.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/rd-smoothscroll.min.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
+    
+    <style>
+      
+        #col {
+           background-color: rgba(86, 87, 158, 0.88);
+        }
+      
+  #siz    {
+            font-size: 17px;
+      color: black;
+             }
+        
+        
+        #but {
+            background-color: #afa0c0;
+        }
+ 
+        #siz2{
+          font-size: 56px;  
+        }   
+        
+        #pre{
+            background-color:  skyblue;
+             border: skyblue;
+            
+        }
+        
+        
+    #sizn    {
+            font-size: 13px;
+        }
+        
+        
+        
+      </style>
+  
+    
+     
+      <style>
+
+
+table, th, td {
+    border: skyblue;
+    border: skyblue;
+}
+th, td {
+    padding: 0px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: #EC407A;
+    color: skyblue;
+}
+          
+ tr, td {
+     border: skyblue;
+    
+    padding: 0px;
+    text-align: left;
+    font-size: 17px;
+}                  
+</style>
+
+    
+    <style>
+      
+        #venue {
+          
+            background-color: #dcc7e0;
+          
+      font-size:16px;
+       text-align: left;
+  
+   
+           }
+        
+         #about {
+          
+        color: #FFFFFF;
+      font-size: 22px;
+       text-align: left;
+   background-color: #E1BEE7;
+   
+             
+           }
+         #sky {
+          
+            background-color:  skyblue;
+            
+            color: black; 
+             
+           font-size: 17px;  
+            text-align: left; 
+           }
+        
+        
+    #sp   {
+           color: #FFFFFF;
+      font-size:22px;
+       text-align: center;
+   background-color:  white;
+   
+            
+        }
+        
+        
+ .go{
+           font-size: 56px;  
+         }
+
+        .col-md-3 {
+        
+     position: relative;
+  min-height: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+        }  
+
+         .col-sm-3   {
+            
+     position: relative;
+  min-height: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+        }  
+         
+         .col-xs-3  {
+            
+     position: relative;
+  min-height: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+        }   
+        
+        
+        
+      </style>
+    
+    
+  </head>
+  <body>
+  <div class="page">
+  <!--========================================================
+                            HEADER
+  =========================================================-->
+  
+     
+     <div class="container">
+    
+        <div class="header">
+         
+         <img src="img/head/headup1.4.png" width="100%" class="img-responsive" alt="">
+              
+    
+        </div>
+         
+      
+
+
+      <div class="container">
+      
+     <div id="stuck_container" id="center" class="stuck_container">
+      
+        <nav id="col" class="navbar navbar-inverse navbar-nav">
+ 
+  
+    <ul  class="nav navbar-nav sf-menu" data-type="navbar">
+   
+     <li><a href="index.html">&nbsp;WELCOME</a></li>
+       <li><a href="committees.html">&nbsp;COMMITTEE</a></li>
+       <li><a href="about.html">&nbsp;ABOUT APPSPGHAN</a></li>
+       
+   <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="programme.html">&nbsp;PROGRAM&nbsp;<span class="caret"></span></a>
+       
+       <ul class="dropdown-menu">
+         <li><a href="higlight.html">HIGHLIGHTS</a></li>
+          <li><a href="atprogramme.html">PROGRAM AT&nbsp;A&nbsp;GLANCE</a></li>
+          <li><a href="scientifi.html">SCIENTIFIC PROGRAM</a></li>
+          <li><a href="endo.html">HANDS&#126;ON ENDOSCOPY</a></li>
+          <li><a href="speaker.html">SPEAKERS</a></li>
+        </ul>
+      </li>
+  
+  
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="venue.html">&nbsp;&nbsp;VENUES/ACCOMODATIONS&nbsp;<span class="caret"></span></a>
+       
+        <ul class="dropdown-menu">
+          <li><a href="metvenue.html">MEETING VENUES</a></li>
+          <li><a href="acco.html">ACCOMMODATIONS</a></li>
+       </ul>
+      </li>
+    
+      <li><a href="infomation.html">&nbsp;&nbsp;INFORMATION</a></li>
+      
+        <li><a href="sponsor.html">&nbsp;&nbsp;SPONSORS</a></li>
+       
+       <!--------
+       <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="sponsor.html">SPONSOR<span class="caret"></span></a>
+       
+        <ul class="dropdown-menu">
+          <li><a href="sponex.html"><font id="siz">SPONSOR&amp;EXHIBITORS</font></a></li>
+       </ul>
+      </li>
+      ------->
+      <li><a href="contacus.html">CONTACT&nbsp;US</a></li>
+    </ul>
+    
+    
+</nav>
+       
+           </div>  
+           
+           
+           
+           
+    </div>
+
+     
+     
+     
+     
+
+
+
+  <!--========================================================
+                            CONTENT
+  =========================================================-->
+
+    <main>        
+
+     
+     <div class="container">
+     
+  <!---   <a href="#go"><bottom onClick="('menubar=no,toolbar=no,scrollbars=yes,statusbar=yes,resizable=yes');javascript:this.style.display='none'"><img src="img/head/warp1.png" class="black-ribbon stick-bottom stick-right"/></bottom></a> --->
+    
+       <br>
+            <img src="img/endo/headendouse1.2.png"  class="img-responsive" alt=""  width="101%">
+           <br>
+            <div class="col-md-12 col-sm-12">
+      
+          
+           <div  class="row wow fadeIn" data-wow-duration='2s'>
+            <a href="importan.html">
+            <div class="col-md-3 col-sm-3 col-xs-3">
+              <div class="thumbnail thumb-shadow">
+                <img src="img/chid1.1.png" width="99%" class="img-responsive" alt="">
+               
+              </div>              
+            </div>
+              </a>
+              
+              
+              <a href="abstract.html">
+            <div class="col-md-3 col-sm-3 col-xs-3">
+              <div class="thumbnail thumb-shadow">
+                <img src="img/chid2.1.png" width="99%" class="img-responsive" alt="">
+               
+              </div>              
+            </div>
+            </a>
+            <a href="registration.html">
+             <div class="col-md-3 col-xl-3 col-xs-3">
+              <div class="thumbnail thumb-shadow">
+                <img src="img/chid3.2.png" width="99%" class="img-responsive" alt="">
+               
+              </div>              
+            </div>
+            </a>
+          
+            <a href="endo.html">
+             <div  class="col-md-3 col-sm-3 col-xs-3">
+              <div class="thumbnail thumb-shadow">
+                <img src="img/chid4.1.png" width="99%"  class="img-responsive" alt="">
+               
+              </div>              
+            </div>
+            </a>
+            
+          </div>
+          
+         </div>
+     </div>
+     
+      
+        <div id="go" class="container">
+        
+       
+           
+           <br>
+       
+            <div class="col-md-12"  id="about">
+        
+       <div class="container-fulid">
+        <h2 id="go" align="right" class="txt-pr">
+        <br>
+      <font  color="white"> &nbsp;ABOUT  </font>
+           
+          <small>
+      <font color="white">THIS COURSE</font>
+          </small>
+        </h2>
+     
+           
+             <div class="col-md-8">
+                   
+                    <p class="text-justify">
+                   
+                    
+                 <p class="text-justify" id="siz">
+            <b> Dear Friends,</b> <br>
+On behalf of the Endoscopic Workshops Organizing Committee, it is an honor and a pleasure to invite you to join the: ‘Hands-On Course in Pediatric Therapeutic GI Endoscopy, which will be held on October 23, 2018    at the Olympus T-Tec Center, Bangkok, Thailand.
+This workshop is truly a ‘hands-on‘ training course, in which all participants are able to practice the endoscopic techniques on biological models as well as manikins in a full day, under the supervision of our regional and international experts. 
+The course will cover 10 therapeutic endoscopic procedures, which are essential for treatment of various common pediatric gastrointestinal problems, including; hemostatic techniques, balloon dilatation, gastrostomy tube placement, 
+               <br>Endoscopic close perforation, foreign body removal and polypectomy, single balloon enteroscopy  and others.
+                </p>
+                <p id="siz" class="text-justify">
+We hope to see you on October 23, 2018 in Thailand, for a prominent and practical endoscopic workshop. Additionally, we hope you to take timeout to enjoy our beautiful country as well. <br>
+<br>
+ <b>Seksit Osatakul, MD. </b>    <br>
+Chairperson, the Endoscopic Workshop Organizing Committee
+               <br>
+                </p>
+            <br>
+           
+            </div> 
+             
+                <div class="col-md-4">
+                <center>
+                <br>
+          <img src="img/endo/seksit.jpg" align="center" width="40%" class="img-responsive" alt="">  <br>
+          
+          </center>
+         
+         
+</div>
+         
+         
+         
+       
+         
+    
+        
+        </div>
+            </div>
+        
+    
+         
+        </div>
+      
+      
+       
+      
+      <section class="well well1 well1_ins1">
+         <div class="container">
+       
+       
+            <div id="sky" class="col-md-7 col-sm-12">
+              <h2 align="right" class="txt-pr">
+       <font color="white">COURSE</font>  
+          <small>
+      <font color="white">SCHEDULE</font>  
+          </small>
+        </h2>
+                
+  
+  <table id="01" class="table">
+     
+     
+      <tr>
+          <td>Station&nbsp;1:</td>
+          <td>Gold Probe/ APC</td>
+      </tr>
+      <tr>
+          <td> Station&nbsp;2:</td>
+          <td>Glue Injection</td>
+      </tr>
+      <tr>
+          <td>Station&nbsp;3:</td>
+          <td>Single Balloon Enteroscopy </td>
+      </tr>
+      <tr>
+          <td>Station&nbsp;4:</td>
+          <td>PEG/PEJ
+</td>
+      </tr>
+      <tr>
+          <td>Station&nbsp;5:</td>
+          <td>Foreign Body Removal </td>
+      </tr>
+      <tr>
+          <td>Station&nbsp;6:</td>
+          <td>Hemoclips, Reversible 
+              Hemoclips, Ovesco Clip</td>
+      </tr>
+      <tr>
+          <td>Station&nbsp;7:</td>
+          <td>Endoscopic Close Perforation</td>
+      </tr>
+      <tr>
+          <td>Station&nbsp;8:</td>
+          <td>Endoscopic Dilatation</td>
+      </tr>
+      <tr>
+          <td>Station&nbsp;9:</td>
+          <td>Endoscopic Polypectomy</td>
+      </tr>
+      <tr>
+          <td>Station&nbsp;10:</td>
+          <td>EVL/EVS</td>
+      </tr>
+      
+     
+      
+  </table>
+  
+  
+  
+ 
+     
+ 
+             </div>
+            
+            
+        
+            
+            <div id="sp" class="col-md-5 col-sm-12" >
+             <h2 align="right" class="txt-pr">
+      
+          <small>
+      <font color="skyblue">SPEAKER </font>  
+          </small>
+        </h2>
+              
+               
+        
+        
+            </div>
+     
+        </div>
+        
+        
+      </section>
+
+          
+      <section class="well well1 well1_ins1">
+         <div class="container">
+       
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+       
+              <h2 class="txt-pr">
+      
+          <small>
+      <font color="gray">REGISTRATION FEES </font>  
+          </small>
+        </h2>
+             
+      <table id="t01" class="table table-striped table-responsive">
+               
+               <tr>
+                   <th><font size="3" color="white">&nbsp;&nbsp;</font></th>
+                   
+                   <th><font size="2" color="white">Early – Bird fee<br>(Before Aug 15, 2018)</font></th>
+                    
+                     <th><font size="2" color="white">Regular fee<br>(Aug 15, 2018 - sep 30, 2018)</font></th> 
+               </tr>
+               <tr>
+                   <td>Hands-on Endoscopy</td>
+                   <td><center>USD 350 </center></td>
+                     <td><center>USD 400 </center></td>
+               </tr>
+               
+                </table>
+        
+   Please note: <br>
+1.We can accept only 30 participants. <br>
+2.No onsite registration for Hands-on &nbsp;&nbsp;Endoscopy.<br>
+                <br>
+            
+                <p class="text-justify">
+                   <b><font color="gray">Hands-on Endoscopy Course registration fee includes</font></b>  
+                   
+                   <br> <br>
+    <ul>
+        <li>
+          •	Admission to all hands-on stations
+        </li>
+    </ul>               
+     <ul>
+        <li>
+         •	Access to the commercial exhibitions 
+        </li>
+    </ul>  
+     <ul>
+        <li>
+      •	Two coffee breaks/refreshment and lunch on &nbsp;&nbsp;October 23, 2018
+        </li>
+    </ul>  
+              
+      <ul>
+        <li>
+        •	Workshop materials (“Manual of Pediatric &nbsp;&nbsp;Therapeutic GI Endoscopy” booklet and bag)
+        </li>
+    </ul>      
+   
+    
+    <ul>
+        <li>
+       •	Transportation from Centara Grand Hotel at &nbsp;&nbsp;CentralWorld to Olympus T-TEC  (both ways)
+        </li>
+    </ul>
+              
+    <ul>
+        <li>
+        •	Certificate of attendance
+        </li>
+    </ul>                     
+        
+                                 
+     <ul>
+        <li>
+        •	CME credits
+        </li>
+    </ul>                     
+        <br>
+                                  <center>     
+                     <a href=""><button id="but" type="button" class="btn btn-info btn-sm"> Online Registration </button></a>  
+                                 </center>       
+ 
+           
+      
+           
+            </div>
+            
+           <div class="container">
+            
+            <div class="col-md-6" id="venue">
+        
+ 
+          <br>
+              <h2 class="txt-pr">
+    <font color="gray">ENDOSCOPY</font>
+          <small>
+      <font color="gray">VENUE</font>  
+          </small>
+        </h2>
+          
+   
+      
+
+              
+               
+                <p  class="text-justify">
+            Olympus T-TEC (Thai-Training &amp; Education Centre) is the 4th training centre established by Olympus in Asia Pacific outside Japan with the rest; 3 centers in China; Shanghai, Beijing and Guangzhou, and the latest one in South Korea that will be operated in October 2017. T-TEC has been operated since May 2016. The center is conveniently situated in Gemopolis Industrial Estate, Bangna – just 15 minutes from Bangkok Suvarnabhumi International Airport that is easily linked to the city centre.
+         </p>
+          
+          
+           <p >T-TEC occupies 3 floors and a total space of 4,900 m<sup>2</sup> 
+  complete with;
+                </p>
+            <ul >
+        <li>
+         - Training rooms
+        </li>
+            </ul> 
+               <ul>
+        <li>
+        - 92-seat auditorium equipped with 4K and HD 3D projector and audio systems
+        </li>
+            </ul>
+                
+                <ul >
+        <li>
+        - Dry lab for up to 10 stations
+        </li>
+            </ul> 
+   
+      <p class="text-justify">- Wet lab with 9 stations equipped with HD 3D, 4K, Endo-Lap imaging,
+         Thunderbeat and Laparoscopic,EndoUrology,ENT&nbsp;and&nbsp;Gastroenterology scopes and instruments.
+</p> 
+       
+        
+           <p>T-TEC is well equipped for gastroenterology, laparoscopic and other minimally invasive surgical training.
+           <br> <br>
+           </p>
+              
+                
+           <div class="col-md-4">
+           
+              <a class="thumb" data-fancybox-group='1' href="img/venue/picture4.jpg">              
+                <img class="" src="img/venue/picture4.jpg" width="30%" alt="">
+                <span class='thumb_overlay'></span>
+              </a>  
+              
+                <br> 
+            </div>
+            
+            <div class="col-md-4">
+             <a class="thumb" data-fancybox-group='1' href="img/venue/picture3.jpg">              
+                <img class="" src="img/venue/picture3.jpg"  alt="">
+                <span class='thumb_overlay'></span>
+              </a>
+              
+               
+           <br>
+            </div>
+            <div class="col-md-4">
+              
+              
+               <a class="thumb" data-fancybox-group='1' href="img/venue/picture2.jpg">              
+                <img class="" src="img/venue/picture2.jpg" width="30%" alt="">
+                <span class='thumb_overlay'></span>
+              </a>  
+          
+           <br>
+            </div>
+             
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31012.220353929053!2d100.707067!3d13.686468!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11f77157527193a6!2sOlympus+T-TEC!5e0!3m2!1sth!2sth!4v1506425118587" width="570" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+         
+             </div>           
+            </div>
+          </div>
+        </div>
+      </section>
+     
+  
+ <!---    
+   <section class="well well2">
+        <div class="container">
+        <h2>
+          our
+          <small>
+            SERVICES
+          </small>
+        </h2>
+          <div class="row offs1">
+            <div class="col-md-6 col-sm-12">
+              <ul class="link-list wow fadeInLeft" data-wow-duration='3s'>
+                <li>
+
+                  <a href="#">Excepteur sint occaecat cupidatat non</a>
+
+                  <a href="#" class="btn-link l-h1 fa-angle-right"></a>
+                </li>
+                <li>
+
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+
+                  <a href="#" class="btn-link l-h1 fa-angle-right"></a>
+                </li>
+                <li>
+
+                  <a href="#">Conse ctetur adipisicing elit sed do</a>
+
+                  <a href="#" class="btn-link l-h1 fa-angle-right"></a>
+                </li>
+                <li>
+
+                  <a href="#">Eiusmod tempor incididunt</a>
+
+                  <a href="#" class="btn-link l-h1 fa-angle-right"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <img class="width_img" src="images/page-1_img6.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="well well3 parallax" data-url="images/parallax1.jpg" data-mobile="
+      true" data-speed="0.9">
+        <div class="container">
+          <div class="wrap text-center">
+            <strong>
+              SAVE TIME,<br />
+              SAVE MONEY,
+              <small>
+                GROW & SUCCEED
+              </small>
+            </strong>
+            <p>
+              Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+            </p>
+            <a href="#" class="btn btn-primary">read more <span class="fa-angle-right"></span></a>
+          </div>  
+        </div>        
+      </section>
+
+      <section class="well well2">
+        <div class="container">
+          <h2>
+            our 
+            <small>
+              clients
+            </small>
+          </h2>
+
+          <div class="row offs1">
+            <ul class="flex-list">
+              <li class="col-lg-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="images/page-1_img7.jpg" alt="">
+                </a>  
+              </li>
+              <li class="col-lg-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="images/page-1_img8.jpg" alt="">
+                </a>  
+              </li>
+              <li class="col-lg-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="images/page-1_img9.jpg" alt="">
+                </a>  
+              </li>
+              <li class="col-lg-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="images/page-1_img10.jpg" alt="">
+                </a>  
+              </li>
+            </ul>
+
+            <ul class="flex-list">
+              <li class="col-lg-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="images/page-1_img11.jpg" alt="">
+                </a>  
+              </li>
+              <li class="col-lg-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="images/page-1_img12.jpg" alt="">
+                </a>  
+              </li>
+              <li class="col-lg-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="images/page-1_img13.jpg" alt="">
+                </a>  
+              </li>
+              <li class="col-lg-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="images/page-1_img14.jpg" alt="">
+                </a>  
+              </li>
+            </ul>
+          </div>  
+          
+        </div>
+      
+ ===========-->
+        
+         
+         
+        
+        </div>
+   </div>
+     
+      
+    </main>
+
+    <!--========================================================
+                            FOOTER
+  =========================================================-->
+  
+<footer>
+
+  
+  <br>
+
+      <div  class="container"> 
+         
+             <div class="row">
+              <div class="col-md-3">
+               <div class="container">
+              <script id="_wauo4n">var _wau = _wau || []; _wau.push(["small", "rz8ctjl454h1", "o4n"]);
+(function() {var s=document.createElement("script"); s.async=true;
+s.src="//widgets.amung.us/small.js";
+document.getElementsByTagName("head")[0].appendChild(s);
+})();</script>
+<br>
+<script type='text/javascript' src='https://www.siamecohost.com/member/gcounter/graphcount.php?page=appspghan2018.com&style=54&maxdigits=6'></script> visitcount <br>
+            
+                
+            </div>
+              </div>
+              
+              <div class="col-md-3">
+              <div class="container">
+             
+           
+            <img src="img/foot/icon_www.png" alt="">| <a href="index.html">http://www.appspghan2018.com</a>  <br>
+            
+             <img src="img/foot/icon_email.png" width="2%" alt=""> | appspghan2018@gmail.com   <br>
+             
+                
+                </div>
+              </div>
+              
+              
+              <div class="col-md-3">
+               <div class="container">
+               
+         <script async src="//platform.twitter.com/widgets.js" charset="utf-8">     </script> 
+                 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+
+                <br>
+                 <div class="fb-share-button" data-href="http://www.appspghan2018.com/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.appspghan2018.com%2F&amp;src=sdkpreparse">share</a></div>
+            
+              </div>
+              </div>
+              
+               <div class="col-md-3">
+               
+               
+            <div class="container">
+        
+               
+               
+
+              <br>
+               appspghan © 2018
+           
+        
+               
+       
+                   
+              </div>
+    </div>
+               
+        </div>
+        <br>
+      </div> 
+  </footer>
+
+  
+  
+
+  
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->         
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tm-scripts.js"></script>    
+  <!-- </script> -->
+
+
+  </body>
+</html>
